@@ -8,9 +8,9 @@
 #ifndef WIFIMANAGER_H_
 #define WIFIMANAGER_H_
 
-#include <CoreFoundation/CoreFoundation.h>
-#include <MobileWiFi/WiFiNetwork.h>
-#include <MobileWiFi/WiFiDeviceClient.h>
+#import <CoreFoundation/CoreFoundation.h>
+#import <MobileWiFi/WiFiNetwork.h>
+#import <MobileWiFi/WiFiDeviceClient.h>
 
 #if __cplusplus
 extern "C" {

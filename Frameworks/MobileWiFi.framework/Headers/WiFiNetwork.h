@@ -8,7 +8,7 @@
 #ifndef WIFINETWORK_H_
 #define WIFINETWORK_H_
 
-#include <CoreFoundation/CoreFoundation.h>
+#import <CoreFoundation/CoreFoundation.h>
 
 #if __cplusplus
 extern "C" {

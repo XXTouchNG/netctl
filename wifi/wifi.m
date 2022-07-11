@@ -1,12 +1,12 @@
 #import <Foundation/Foundation.h>
 #import <MobileWiFi/MobileWiFi.h>
-#include <err.h>
-#include <stdbool.h>
-#include <stdio.h>
+#import <err.h>
+#import <stdbool.h>
+#import <stdio.h>
 
-#include "wifi.h"
-#include "output.h"
-#include "netctl.h"
+#import "wifi.h"
+#import "output.h"
+#import "netctl.h"
 
 CFArrayRef scanNetworks;
 WiFiManagerRef manager;

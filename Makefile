@@ -1,7 +1,7 @@
-CC    ?= xcrun -sdk iphoneos cc -arch arm64
-STRIP ?= xcrun -sdk iphoneos strip
+CC    := xcrun -sdk iphoneos cc -arch arm64
+STRIP := xcrun -sdk iphoneos strip
 
-LDID  ?= ldid
+LDID  := ldid
 
 NO_CELLULAR ?= 0
 NO_WIFI     ?= 0

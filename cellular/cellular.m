@@ -1,11 +1,11 @@
-#include <CTPrivate.h>
-#include <CoreTelephony/CTCarrier.h>
-#include <CoreTelephony/CTTelephonyNetworkInfo.h>
-#include <Foundation/Foundation.h>
-#include <err.h>
-#include <output.h>
+#import <CTPrivate.h>
+#import <CoreTelephony/CTCarrier.h>
+#import <CoreTelephony/CTTelephonyNetworkInfo.h>
+#import <Foundation/Foundation.h>
+#import <err.h>
+#import <output.h>
 
-#include "netctl.h"
+#import "netctl.h"
 
 static CTServerConnectionRef serverConnection;
 

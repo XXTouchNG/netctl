@@ -8,9 +8,9 @@
 #ifndef MOBILEWIFI_H_
 #define MOBILEWIFI_H_
 
-#include <MobileWiFi/WiFiDeviceClient.h>
-#include <MobileWiFi/WiFiNetwork.h>
-#include <MobileWiFi/WiFiManager.h>
+#import <MobileWiFi/WiFiDeviceClient.h>
+#import <MobileWiFi/WiFiNetwork.h>
+#import <MobileWiFi/WiFiManager.h>
 
 #if __cplusplus
 extern "C" {

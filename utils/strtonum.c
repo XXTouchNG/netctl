@@ -17,12 +17,12 @@
  *	$OpenBSD: strtonum.c,v 1.7 2013/04/17 18:40:58 tedu Exp $
  */
 
-#include <sys/cdefs.h>
+#import <sys/cdefs.h>
 __FBSDID("$FreeBSD$");
 
-#include <errno.h>
-#include <limits.h>
-#include <stdlib.h>
+#import <errno.h>
+#import <limits.h>
+#import <stdlib.h>
 
 #define INVALID 1
 #define TOOSMALL 2

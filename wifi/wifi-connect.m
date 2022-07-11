@@ -1,9 +1,9 @@
 #import <CoreFoundation/CoreFoundation.h>
 #import <Foundation/Foundation.h>
 #import <MobileWiFi/MobileWiFi.h>
-#include <err.h>
+#import <err.h>
 
-#include "wifi.h"
+#import "wifi.h"
 
 void wifiConnectCallback(WiFiDeviceClientRef, WiFiNetworkRef, CFDictionaryRef, int,
 					 const void *);

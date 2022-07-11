@@ -1,11 +1,11 @@
 #import <CoreFoundation/CoreFoundation.h>
 #import <Foundation/Foundation.h>
 #import <Sharing/Sharing.h>
-#include <err.h>
-#include <getopt.h>
-#include <stdbool.h>
-#include <stdio.h>
-#include <string.h>
+#import <err.h>
+#import <getopt.h>
+#import <stdbool.h>
+#import <stdio.h>
+#import <string.h>
 
 NSString *name;
 NSMutableArray *files;

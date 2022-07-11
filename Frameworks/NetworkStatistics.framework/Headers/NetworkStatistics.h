@@ -1,4 +1,4 @@
-#include <Foundation/Foundation.h>
+#import <Foundation/Foundation.h>
 
 // credit to Jonathan Levin (jlevin) :
 // http://newosxbook.com/src.jl?tree=listings&file=netbottom.c

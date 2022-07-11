@@ -1,10 +1,10 @@
-#include <err.h>
-#include <getopt.h>
-#include <stdbool.h>
-#include <stdio.h>
-#include <string.h>
+#import <err.h>
+#import <getopt.h>
+#import <stdbool.h>
+#import <stdio.h>
+#import <string.h>
 
-#include "include/netctl.h"
+#import "include/netctl.h"
 
 int wifi(int, char **);
 int cellular(int, char **);

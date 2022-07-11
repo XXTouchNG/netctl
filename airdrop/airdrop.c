@@ -1,6 +1,6 @@
-#include <err.h>
-#include <stdio.h>
-#include <string.h>
+#import <err.h>
+#import <stdio.h>
+#import <string.h>
 
 int airdropscan(int, char **);
 int airdropsend(int, char **);

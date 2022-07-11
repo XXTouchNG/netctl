@@ -1,7 +1,7 @@
 #import <CoreFoundation/CoreFoundation.h>
 #import <Foundation/Foundation.h>
 #import <Sharing/Sharing.h>
-#include <stdio.h>
+#import <stdio.h>
 
 int airdroppower(char *action) {
 	SFOperationRef operation = SFOperationCreate(kCFAllocatorDefault, kSFOperationKindController);

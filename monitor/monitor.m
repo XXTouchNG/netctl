@@ -1,11 +1,11 @@
-#include <Foundation/Foundation.h>
+#import <Foundation/Foundation.h>
 #import <NetworkStatistics/NetworkStatistics.h>
-#include <arpa/inet.h>
-#include <err.h>
-#include <netdb.h>
-#include <sys/socket.h>
+#import <arpa/inet.h>
+#import <err.h>
+#import <netdb.h>
+#import <sys/socket.h>
 
-#include "SourceInfo.h"
+#import "SourceInfo.h"
 
 void (^description_block)(CFDictionaryRef) = ^(CFDictionaryRef cfDict) {
   NSDictionary* dict = (__bridge NSDictionary*)cfDict;

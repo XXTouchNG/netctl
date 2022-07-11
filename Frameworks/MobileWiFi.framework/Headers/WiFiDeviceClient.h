@@ -8,8 +8,8 @@
 #ifndef WIFIDEVICECLIENT_H_
 #define WIFIDEVICECLIENT_H_
 
-#include <CoreFoundation/CoreFoundation.h>
-#include <MobileWiFi/WiFiNetwork.h>
+#import <CoreFoundation/CoreFoundation.h>
+#import <MobileWiFi/WiFiNetwork.h>
 
 #if __cplusplus
 extern "C" {

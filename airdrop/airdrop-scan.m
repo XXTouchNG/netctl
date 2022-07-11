@@ -1,13 +1,14 @@
 #import <CoreFoundation/CoreFoundation.h>
 #import <Foundation/Foundation.h>
 #import <Sharing/Sharing.h>
-#include <err.h>
-#include <getopt.h>
-#include <stdio.h>
-#include <string.h>
+#import <err.h>
+#import <getopt.h>
+#import <stdio.h>
+#import <string.h>
 
-#include "output.h"
-#include "netctl.h"
+#import "output.h"
+#import "netctl.h"
+#import "strtonum.h"
 
 CFMutableArrayRef discovered;
 

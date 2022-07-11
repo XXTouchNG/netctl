@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
-#include <cups/cups.h>
-#include <err.h>
+#import <cups/cups.h>
+#import <err.h>
 
 int nctl_print_browse(void) {
 	cups_dest_t* dests;

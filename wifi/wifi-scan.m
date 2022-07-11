@@ -1,10 +1,11 @@
 #import <CoreFoundation/CoreFoundation.h>
 #import <Foundation/Foundation.h>
 #import <MobileWiFi/MobileWiFi.h>
-#include <getopt.h>
-#include <err.h>
+#import <getopt.h>
+#import <err.h>
 
-#include "wifi.h"
+#import "wifi.h"
+#import "strtonum.h"
 
 void wifiScanCallback(WiFiDeviceClientRef, CFArrayRef, int, void *);
 

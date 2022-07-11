@@ -1,9 +1,9 @@
-#include "SourceInfo.h"
+#import "SourceInfo.h"
 
 #import <Foundation/Foundation.h>
 #import <NetworkStatistics/NetworkStatistics.h>
 
-#include "DataInfo.h"
+#import "DataInfo.h"
 
 static BOOL isTCP(NSString*);
 static NSString* interfaceType(NSDictionary* sourceDict);

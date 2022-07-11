@@ -1,9 +1,9 @@
 #import <CoreFoundation/CoreFoundation.h>
 #import <MobileWiFi/MobileWiFi.h>
-#include <err.h>
-#include <stdbool.h>
+#import <err.h>
+#import <stdbool.h>
 
-#include "wifi.h"
+#import "wifi.h"
 
 int wififorget(int argc, char **argv) {
 	WiFiNetworkRef network;

@@ -1,5 +1,5 @@
-#include <Foundation/Foundation.h>
-#include "CTServerConnection.h"
+#import <Foundation/Foundation.h>
+#import "CTServerConnection.h"
 
 CFStringRef CTSettingCopyMyPhoneNumber(void);
 int CTGetSignalStrength(void);

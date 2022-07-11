@@ -8,7 +8,7 @@
 #ifndef CTSERVERCONNECTION_H_
 #define CTSERVERCONNECTION_H_
 
-#include <CoreFoundation/CoreFoundation.h>
+#import <CoreFoundation/CoreFoundation.h>
 
 #if __cplusplus
 extern "C" {

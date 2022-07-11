@@ -2,7 +2,7 @@
 
 #import <Foundation/Foundation.h>
 
-#include "DataInfo.h"
+#import "DataInfo.h"
 
 @interface NCSourceInfo : NSObject
 @property(nonatomic) NSString* timeStamp;
